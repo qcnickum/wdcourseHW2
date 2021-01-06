@@ -9,3 +9,5 @@ ReactDOM.render(<App />, document.getElementById("root"));
 ReactDOM.render(<Header />, document.getElementById("header"));
 ReactDOM.render(<Footer />, document.getElementById("footer"));
 ReactDOM.render(<Note />, document.getElementById("note"));
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
